@@ -55,8 +55,7 @@ export function makeSpanishLanguageArray(arr) {
     const arreglo = new Array;
 
     arr.forEach(element => {
-        //convert object name to Spanish
-        arreglo.push(element);
+        arreglo.push({ 'nombre': element.name, 'tipo': element.type });
     });
     
     return arreglo;

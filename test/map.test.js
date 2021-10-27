@@ -16,8 +16,6 @@ const pets = [
     { name: 'fluff', type: 'squirrel' },
 ];
 
-console.log(pets);
-
 
 test('should return all names', (expect) => {
     //Arrange
